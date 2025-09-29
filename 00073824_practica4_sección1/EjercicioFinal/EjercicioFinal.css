@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: #e1d309;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.seccion-entrada {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #cbcacade;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+
+button {
+    padding: 12px 30px;
+    background: #f07a2b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e217a2;
+}
+
+.resultado {
+    margin-top: 30px;
+    padding: 30px;
+    background: #eed93e7d;
+    border-radius: 10px;
+    display: none;
+}
+
+.resultado.mostrar {
+    display: block;
+}
+
+.nombre-dia {
+    font-size: 1.5em;
+    color: #f07a2b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.actividad {
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.error {
+    color: #009bd8;
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-weight: bold;
+}
